@@ -1,0 +1,13 @@
+# robots.txt - O Santo Movimento
+# Otimização para mecanismos de busca
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://osantomovimento.com.br/sitemap.xml
+
+# Crawl delay (opcional)
+Crawl-delay: 1
