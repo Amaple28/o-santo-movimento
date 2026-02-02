@@ -364,6 +364,37 @@ section:not(.hero-section) {
     display: block;
 }
 
+/* Carrossel do espaço dentro do card */
+.espaco-carousel .carousel,
+.espaco-carousel .carousel-inner {
+    height: 360px;
+}
+
+.espaco-carousel .carousel-item,
+.espaco-carousel .carousel-item img {
+    height: 360px;
+}
+
+.espaco-carousel .carousel-item img {
+    object-fit: cover;
+}
+
+.espaco-carousel .carousel-control-prev,
+.espaco-carousel .carousel-control-next {
+    width: 12%;
+}
+
+.espaco-carousel .carousel-control-prev-icon,
+.espaco-carousel .carousel-control-next-icon {
+    filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.55));
+}
+
+.espaco-carousel .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
 .pessoas-caption {
     padding: 1rem 1.25rem 1.25rem;
 }
@@ -1206,16 +1237,56 @@ html.js .reveal.is-visible {
         padding: 0.5rem 0;
     }
 
+    .hero-section::before {
+        background:
+            linear-gradient(180deg,
+                rgba(10, 10, 10, 0.82) 0%,
+                rgba(10, 10, 10, 0.62) 55%,
+                rgba(10, 10, 10, 0.38) 100%
+            );
+    }
+
+    .hero-content {
+        text-align: center;
+        background: rgba(0, 0, 0, 0.46);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 26px 90px rgba(0, 0, 0, 0.42);
+    }
+
     .hero-title {
-        font-size: 2rem;
+        font-size: 2.25rem;
+        letter-spacing: -0.6px;
     }
 
     .hero-subtitle {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+        display: inline-block;
+        padding: 0.2rem 0.7rem;
+        border-radius: 999px;
+        background: rgba(255, 107, 53, 0.16);
+        border: 1px solid rgba(255, 107, 53, 0.36);
     }
 
     .hero-description {
         font-size: 1.1rem;
+    }
+
+    .hero-text {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .hero-content .btn-cta {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero-note {
+        display: inline-block;
+        padding: 0.55rem 0.85rem;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.10);
+        border: 1px solid rgba(255, 255, 255, 0.14);
     }
 
     .section-title {
@@ -1247,11 +1318,11 @@ html.js .reveal.is-visible {
 
 @media (max-width: 576px) {
     .hero-title {
-        font-size: 1.5rem;
+        font-size: 2.05rem;
     }
 
     .hero-subtitle {
-        font-size: 1.2rem;
+        font-size: 1.35rem;
     }
 
     .hero-description {

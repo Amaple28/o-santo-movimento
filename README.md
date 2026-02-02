@@ -72,9 +72,9 @@ Para mudar, edite a seção de Google Fonts no `<head>` do HTML.
 ### Atualizar Informações de Contato
 Procure por estas seções no `index.html` e atualize:
 - **WhatsApp**: `https://wa.me/5531992402209`
-- **Email**: `contato@osantomovimento.com.br`
+- **Email**: `guilhermebraz79@gmail.com`
 - **Endereço**: Rua Jacuí, 2033, Concórdia - BH
-- **Atendimento**: 14h às 19h (segunda a sexta)
+- **Atendimento**: 08h às 18h (segunda a sexta)
 - **Treinos**: horários agendados por turma
 
 ## 📱 Responsividade
@@ -188,7 +188,7 @@ Este projeto é fornecido como está para uso pessoal e comercial.
 ## 👨‍💻 Suporte
 
 Para dúvidas ou sugestões sobre o site, entre em contato:
-- **Email**: contato@osantomovimento.com.br
+- **Email**: guilhermebraz79@gmail.com
 - **WhatsApp**: [Link do WhatsApp]
 
 ---
